@@ -1,0 +1,17 @@
+{
+  "name": "local-snapshots",
+  "version": "0.0.0",
+  "description": "Take a local snapshot",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
