@@ -2,14 +2,18 @@
   "name": "local-snapshots",
   "version": "0.0.0",
   "description": "An App snapshot service, but local",
-  "main": "index.js",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mansona/local-snapshots.git"
+  },
+  "license": "MIT",
+  "author": "Chris Manson <chris@manson.ie>",
   "type": "module",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "Chris Manson <chris@manson.ie>",
-  "license": "MIT",
   "dependencies": {
     "commander": "^12.1.0",
     "puppeteer": "^23.5.0"
@@ -20,6 +24,7 @@
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.2.1",
     "globals": "^15.10.0",
-    "prettier": "^3.3.3"
+    "prettier": "^3.3.3",
+    "release-plan": "^0.9.0"
   }
 }
